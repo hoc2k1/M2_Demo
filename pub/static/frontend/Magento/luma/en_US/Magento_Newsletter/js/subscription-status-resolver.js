@@ -1,1 +1,0 @@
-/Users/bssgroup/Desktop/Hoc/hoc_magento/vendor/magento/module-newsletter/view/frontend/web/js/subscription-status-resolver.js

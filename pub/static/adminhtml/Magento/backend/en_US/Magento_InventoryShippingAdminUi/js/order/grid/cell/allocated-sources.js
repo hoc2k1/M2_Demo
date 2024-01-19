@@ -1,1 +1,0 @@
-/Users/bssgroup/Desktop/Hoc/hoc_magento/vendor/magento/module-inventory-shipping-admin-ui/view/adminhtml/web/js/order/grid/cell/allocated-sources.js

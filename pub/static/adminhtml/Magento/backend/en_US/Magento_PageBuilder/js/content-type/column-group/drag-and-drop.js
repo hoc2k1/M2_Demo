@@ -1,1 +1,0 @@
-/Users/bssgroup/Desktop/Hoc/hoc_magento/vendor/magento/module-page-builder/view/adminhtml/web/js/content-type/column-group/drag-and-drop.js

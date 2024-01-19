@@ -1,1 +1,0 @@
-/Users/bssgroup/Desktop/Hoc/hoc_magento/vendor/magento/module-email/view/adminhtml/web/js/variables.js

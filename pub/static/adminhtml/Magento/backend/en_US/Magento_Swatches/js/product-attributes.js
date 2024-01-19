@@ -1,1 +1,0 @@
-/Users/bssgroup/Desktop/Hoc/hoc_magento/vendor/magento/module-swatches/view/adminhtml/web/js/product-attributes.js

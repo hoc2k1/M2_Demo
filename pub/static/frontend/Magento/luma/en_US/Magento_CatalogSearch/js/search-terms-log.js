@@ -1,1 +1,0 @@
-/Users/bssgroup/Desktop/Hoc/hoc_magento/vendor/magento/module-catalog-search/view/frontend/web/js/search-terms-log.js
