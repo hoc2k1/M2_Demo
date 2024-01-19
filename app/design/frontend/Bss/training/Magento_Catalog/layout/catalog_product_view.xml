@@ -35,6 +35,7 @@
         </referenceBlock>
         <!-- end them tab -->
 
+        <!-- them custom product listing -->
         <referenceContainer name="content.aside">
             <block class="Magento\Cms\Block\Block" name="custom-product-listing" template="Bss_HelloWorld::product\view\static_block.phtml" after="-">
                 <arguments>
@@ -42,5 +43,6 @@
                 </arguments>
             </block>
         </referenceContainer>
+        <!-- end them custom product listing -->
     </body>
 </page>

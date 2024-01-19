@@ -1,15 +1,21 @@
 <?xml version="1.0"?>
 <routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Webapi:etc/webapi.xsd">
+
+    <!-- enpoint get product detail by sku -->
     <route url="/V1/products/:sku" method="GET">
         <service class="Bss\HelloWorld\Api\ProductApiInterface" method="getProductBySku"/>
         <resources>
             <resource ref="anonymous"/>
         </resources>
     </route>
+    <!-- end -->
+
+    <!-- api get customapi by id -->
     <route url="/V1/customapi/:id" method="GET">
         <service class="Bss\HelloWorld\Api\CustomApiInterface" method="getData"/>
         <resources>
             <resource ref="anonymous"/>
         </resources>
     </route>
+    <!-- end -->
 </routes>

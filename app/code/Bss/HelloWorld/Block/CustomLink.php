@@ -10,10 +10,8 @@ class CustomLink extends \Magento\Framework\View\Element\Template
 
     public function __construct(
         \Magento\Framework\View\Element\Template\Context $context,
-        // StoreManagerInterface $storeManager,
         array $data = []
     ) {
-        // $this->storeManager = $storeManager;
         parent::__construct($context, $data);
 
         $label = $this->getData('custom-link');
@@ -21,9 +19,12 @@ class CustomLink extends \Magento\Framework\View\Element\Template
         $this->link = "https://bsscommerce.com/";
     }
 
+    // Label thi o giao dien nguoi dung
     public function getLabel() {
         return $this->label;
     }
+
+    // Link redirect
     public function getLink() {
         return $this->link;
     }

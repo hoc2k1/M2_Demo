@@ -1,6 +1,7 @@
 <?php
 namespace Bss\HelloWorld\Controller\Index;
 
+// Test module HelloWorld
 class Test extends \Magento\Framework\App\Action\Action
 {
 	protected $_pageFactory;
@@ -15,8 +16,6 @@ class Test extends \Magento\Framework\App\Action\Action
 
 	public function execute()
 	{
-		// echo "Hello World";
-		// exit;
 		return $this->_pageFactory->create();
 	}
 }

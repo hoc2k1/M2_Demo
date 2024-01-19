@@ -21,9 +21,7 @@ class ProductApi implements ProductApiInterface
         $this->productRepository = $productRepository;
     }
 
-    /**
-     * {@inheritdoc}
-     */
+    // Lay data product bang sku
     public function getProductBySku($sku)
     {
         try {

@@ -5,9 +5,7 @@ use Bss\HelloWorld\Api\CustomApiInterface;
 
 class CustomApi implements CustomApiInterface
 {
-    /**
-     * @var array
-     */
+    // sample data
     private $data = [
         1 => ['ID' => 1, 'Name' => 'Item 1', 'Class' => 'Class A'],
         2 => ['ID' => 2, 'Name' => 'Item 2', 'Class' => 'Class B'],
@@ -16,9 +14,7 @@ class CustomApi implements CustomApiInterface
         5 => ['ID' => 5, 'Name' => 'Item 5', 'Class' => 'Class E'],
     ];
 
-    /**
-     * {@inheritdoc}
-     */
+    // lay data
     public function getData($id)
     {
         return isset($this->data[$id]) ? $this->data[$id] : [];
